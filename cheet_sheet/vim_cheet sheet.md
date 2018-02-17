@@ -75,10 +75,13 @@
            ForwardX11 yes
 
     ssh -XY user@remote_host -pport
-
+              # deb / ubuntu
     apt install vim-gtk xorg openbox
     и можно еще
     sudo apt-get install xauth
+              # arch
+    pacman -S gvim
+    
 
 
 
