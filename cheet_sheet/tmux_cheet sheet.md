@@ -30,16 +30,16 @@
     
     
     
-     "pr + ?"     -   help
-     "pr + )"     -   select next sessions
-     "pr + ("     -   select previous sessions
-     "pr + $"     -   rename corrent Session
-     "pr + &"     -   kill window (include  all separated)
-     "pr + ,"     -   rename window
-     "pr + ."     -   move current window to  (	. sessname )
-                                              ( . sessnum:position )
-     "pr + PGDN"  -   PGDOWN
-     "pr + PGUP"  -   PGUP
+     "pr + ?"             -   help
+     "pr + )"             -   select next sessions
+     "pr + ("             -   select previous sessions
+     "pr + $"             -   rename corrent Session
+     "pr + &"             -   kill window (include  all separated)
+     "pr + ,"             -   rename window
+     "pr + ."             -   move current window to  (	. sessname )
+                                                      ( . sessnum:position )
+     "pr + PGDN"          -   PGDOWN
+     "pr + PGUP"          -   PGUP
      "pr + Num 0,1,2.."   - select window 0,1,2....9
 
 ##### managing split (separated) windows     
