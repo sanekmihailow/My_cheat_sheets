@@ -99,127 +99,84 @@
 
 
 command mode
-=======================
- "pr + :"       -  command mode
+============================
 
------------------- other --------------------------------------
+     
+ ##### "pr + :"       -  command mode
 
-  list-keys                                -         help
-source-file file                  source file
-send-prefix
-suspend-client                    sleep process
-show-messages                     show previous multiplexer message
+------------------ 
+
+    :list-keys                       - help
+    :source-file file                - source file
+    :send-prefix
+    :suspend-client                  - sleep process
+    :show-messages                   - show previous multiplexer message
 
 
 
 ###### -------------- sessions ---------------------------------------
 
-detach-client                     detach session
-new                               new session
-new -s foo                        new named session
-choose-session                    switch session                     
+    :detach-client                   - detach session
+    :new                             - new session
+    :new -s foo                      - new named session
+    :choose-session                  - switch session                     
 
   
  ###### ------------- window -----------------------------------------
  
-new-window                        create new window    
-next-window                       switch to next window    
-previous-window                   switch to previous window    
-select-window -t :n               select window n    
-list-windows                      list windows
-move-window                       move current window to another session
-refresh-client                    redraw current window    
-choose-window                     choose window interactively        
-kill-window                       close current window      
+    :new-window                      - create new window    
+    :next-window                     - switch to next window    
+    :previous-window                 - switch to previous window    
+    :select-window -t :n             - select window n    
+    :list-windows                    - list windows
+    :move-window                     - move current window to another session
+    :refresh-client                  - redraw current window    
+    :choose-window                   - choose window interactively        
+    :kill-window                     - close current window      
 
 ###### -------------------- pane ----------------------------------------
-split-window -h                   split into left and right panes        
-split-window                      split into top and bottom panes  
-select-pane                       switch to next panes      
-rotate-window                     rotate panes      
-rotate-window -D                  reverse rotate panes          
-swap-pane -U                      change place current and previous pane        
-swap-pane -D                      clange place current and next pane      
-next-layout                       change vertical or horizaontal around        
-confirm-before kill-pane          close current pane            
-break-pane                        break(unite) current pane into separate window                        
-list-panes                        list panes
-display-panes                     display pane numbers
-clear-history                     clear current pane
-pipe-pane "cat > /tmp/tmux.log"   log pane to file         
-pipe-pane                         turn off logging
-join-pane -s 1                    join window 1 to current window      
-join-pane -s 1.0                  join region 0 of window 1 to current window
-resize-pane -L n                  resize pane left n cells     
-resize-pane -U n                  resize pane up n cells     
+    :split-window -h                 - split into left and right panes        
+    :split-window                    - split into top and bottom panes  
+    :select-pane                     - switch to next panes      
+    :rotate-window                   - rotate panes      
+    :rotate-window -D                - reverse rotate panes          
+    :swap-pane -U                    - change place current and previous pane        
+    :swap-pane -D                    - clange place current and next pane      
+    :next-layout                     - change vertical or horizaontal around        
+    :confirm-before kill-pane        - close current pane            
+    :break-pane                      - break(unite) current pane into separate window                        
+    :list-panes                      - list panes
+    :display-panes                   - display pane numbers
+    :clear-history                   - clear current pane
+    :pipe-pane "cat > /tmp/tmux.log" - log pane to file         
+    :pipe-pane                       - turn off logging
+    :join-pane -s 1                  - join window 1 to current window      
+    :join-pane -s 1.0                - join region 0 of window 1 to current window
+    :resize-pane -L n                - resize pane left n cells     
+    :resize-pane -U n                - resize pane up n cells     
 
 ###### ------------------- copy mode ------------------------------------------- 
-copy-mode                         enter copy mode        
-paste-buffer                      paste most recent buffer     
-list-buffers                      list buffers     
-choose-buffer                     choose buffer to paste interactively 
-save-buffer /path                 write buffer to file       
-load-buffer /path                 copy file to buffer         
+    :copy-mode                       - enter copy mode        
+    :paste-buffer                    - paste most recent buffer     
+    :list-buffers                    - list buffers     
+    :choose-buffer                   - choose buffer to paste interactively 
+    :save-buffer /path               - write buffer to file       
+    :load-buffer /path               - copy file to buffer         
   
 
 
 
-
-Регистры
+terminal 
 ==================
-""ayw" - скопировать в буфер " и регистр "а" слово
-""ap" - вставить из буфера " и регситра "а" слово
-
-#####                             Копировать из vima себе
-
-""+yy" или ""*yy"
-
-
-
-##### Если по ssh то
-    /etc/ssh/sshd_config
-           ForwardX11 yes
-
-    ssh -XY user@remote_host -pport
-              # deb / ubuntu
-    apt install vim-gtk xorg openbox
-    и можно еще
-    sudo apt-get install xauth
-              # arch
-    pacman -S gvim
-    
-
-
-
-
-Режим ввода команд
-=======
-    ':tabnew путь' - создать новую вкладку
-                    "Ctrl + PgUP" , "Ctrl + PgDN" - перемещение между вкладками (вперед , назад)
-
-    ':Q' - режим ed редактирования
-    '/' , '?' - поиск с начала , конца
-    ':e Путь' - открыть для редактирования файл
-    ':r путь or !command' - вставить из фийла или команды текст
-    ':sh'  - перейти в shell
-    ':Nread ftp://...' -  открыть в vim файл на удаленном хосте
-    ':%s/ab/db/gi' - заменить глобально ab на db , i - ignorecase
-    ':1,3s/ab/db/' - заменить ab на db c 1 по 3 строку
-    ':%!tr 'A-Z' 'a-z'' - изменить регистр букв с маленьких на большой глобально
-    ':1,3!tr 'A-Z' 'a-z'' -  изменить регистр букв с маленьких на большой с 1 по 3 строку
-    ':/tag/,/untag/s/abc/def/' - заменяет abd на def между "/tag" и "/untag"
-
-    ':set'  - показать текущие настройки
-    ':buffers' - показать кол-во буфферов
-    ':registers' - показать кол-во регистров
-
-    ':set syntax=python' - установить синтаксис Python
-    ':set ro' - сделать только для чтения
-    ':set foldmethod=indent'  zr , zt , zc, zO
-
-    ':iab abvr ACCESS bridge version raid' - сделать абривиатуру и раскравать ее в тексте
-
-
+    tmux list-commands                         -  show tmux commands
+    tmux ls                                    -  show tmux current sessions       
+    tmux attach / tmux a                      -   attach (connect) current session
+    tmux new                                   -  create new tmux session
+    tmux a -t session_name                     -  attach current session name      
+    tmux kill-session -t session_name          -  kill session name      
+    tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill     - kill all tmux current session         
+    tmux kill-server                           -  kill all tmux session 
+   
 
 
 
