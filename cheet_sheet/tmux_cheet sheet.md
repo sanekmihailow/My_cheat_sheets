@@ -40,7 +40,7 @@
                                                       ( . sessnum:position )
      "pr + PGDN"          -   PGDOWN
      "pr + PGUP"          -   PGUP
-     "pr + Num 0,1,2.."   - select window 0,1,2....9
+     "pr + Num 0,1,2.."   -   select window 0,1,2....9
 
 ##### managing split (separated) windows     
 
