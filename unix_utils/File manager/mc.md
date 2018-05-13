@@ -3,24 +3,26 @@ midnight commander hotkeys
 
 remember 
 
-meta = (ESC or ALT)
+meta = (<kbd>ESC</kbd> or <kbd>ALT</kbd>)
 
-C-z = (ctl + z)     
+C-z = (<kbd>ctl + z</kbd>)     
 
 ### panel
 
+| **Action** | **hotkey** |
+|---|---|
+| move to directory from inactual panel on actual panel <br> <b>example:</b> actual = (/var/www), inactual ( /usr/local) -> inactual will (/var/www) | <kbd>meta + i</kbd><br>
+| shows contents directory from actual panel on inactual panel | <kbd>meta + o</kbd><br>
+| change view poroperties | <kbd>meta + t</kbd><br>
+| show panel vertial / horizontal | <kbd>meta + ,</kbd><br>
+| redraw screen | <kbd>C-l</kbd><br>
+| reread contents in directory | <kbd>C-r</kbd><br>
+| switch to command line | <kbd>C-o</kbd><br>
+| show list actual virtual connect | <kbd>C-x</kbd> , <kbd>a</kbd><br>
+| show list background procces | <kbd>C-x</kbd> , <kbd>j</kbd><br>
+| to change places panel | <kbd>C-u</kbd><br>
 
-     "meta + i"                         - move to directory from inactual panel on actual panel 
-                                             example: actual = (/var/www), inactual ( /usr/local) -> inactual will (/var/www)
-     "meta + o"                         - shows contents directory from actual panel on inactual panel
-     "meta + t"                         - change view poroperties
-     "meta + ,"                         - show panel vertial / horizontal
-     "C-l"                              - redraw screen
-     "C-r"                              - reread contents in directory
-     "C-o"                              - switch to command line
-     "C-x, a"                           - show list actual virtual connect
-     "C-x, j"                           - show list background procces
-     "C-u"                              - to change places panel
+
      
      
  ### manage
@@ -63,4 +65,4 @@ C-z = (ctl + z)
       
 | **Action** | **hotkey** |
 |---|---|
-| create new file | <kbd>shift + F4</kbd><br>	| <kbd>screen</kbd> | 
+| create new file | <kbd>shift + F4</kbd><br> | <kbd>screen</kbd> | 
