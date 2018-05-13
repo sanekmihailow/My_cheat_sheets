@@ -61,9 +61,6 @@ C-z = (ctl + z)
      
      
       
-# tmux vs. screen commands
----
-
 | **Action** | **hotkey** |
 |---|---|
 | create new file | <kbd>shift + F4</kbd><br>	| <kbd>screen</kbd> | 
