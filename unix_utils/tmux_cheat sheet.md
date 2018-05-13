@@ -1,7 +1,7 @@
   Hotkeys
 ============================
     remeber
-    prefix def (pr) = "ctrl+b"
+    pr = prefix def ("ctrl+b")
     C-z = ctrl + z
     ----------------------------
 
@@ -168,14 +168,17 @@ command mode
 
 terminal 
 ==================
-    tmux list-commands                         -  show tmux commands
-    tmux ls                                    -  show tmux current sessions       
-    tmux attach / tmux a                      -   attach (connect) current session
-    tmux new                                   -  create new tmux session
-    tmux a -t session_name                     -  attach current session name      
-    tmux kill-session -t session_name          -  kill session name      
+    tmux list-commands                                                                          - show tmux commands
+    tmux ls                                                                                     - show tmux current sessions       
+    tmux attach / tmux a                                                                        - attach (connect) current session
+    tmux new                                                                                    - create new tmux session
+    tmux a -t session_name                                                                      - attach current session name      
+    tmux kill-session -t session_name                                                           - kill session name      
     tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill     - kill all tmux current session         
-    tmux kill-server                           -  kill all tmux session 
+    tmux kill-server                                                                            - kill all tmux session 
+    tmux command -t name                                                                        - send command to session name 
+    tmux send-keys -t name 'ls' C-m                                                             - run ls in sessein name
+    tmux new-window vi /etc/motd                                                                - run vi in new session  
    
 
 
