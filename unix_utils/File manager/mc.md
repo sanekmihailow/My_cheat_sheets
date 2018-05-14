@@ -27,20 +27,24 @@ C-z = (<kbd>ctl + z</kbd>)
      
  ### manage
  
-      "insert" or "shift + arrow (down/up)" or "shift + t"       - select file, fioled
-      "+"                                                        - select files based on a pattern
-      "-" or "\"                                                 - unselect files based on a pattern
-      "*"                                                        - select all files on this folder
-      "meta + shift + H"                                         - show history previous path
-      "meta + ."                                                 - show on / show off hidden files (.*)
-      "meta + a" or "C-x, p"                                     - paste in shell current path (activity panel)
-      "meta + c"                                                 - change current path
-      "meta + g" or "HOME"                                       - move top
-      "meta + j" or "END"                                        - move down
-      "meta + r"                                                 - select middle
-      "meta + shift + ?"                                         - advanced search 
-      "meta + y"                                                 - move to the previous directory in history
-      "meta + u"                                                 - move to the next directory in history
+ | **Action** | **hotkey** |
+|---|---|
+| select file, fioled |  <kbd>insert</kbd> or<br><kbd>shift + arrow</kbd> (down/up) or<br><kbd>shift + t</kbd>
+| select files based on a pattern | <kbd>+</kbd><br>
+| change view poroperties | <kbd>-</kbd> or<br><kbd>\ </kbd>
+| select all files on this folder | <kbd>*</kbd><br>
+| show history previous path | <kbd>meta + shift + H</kbd><br>
+| show on / show off hidden files | <kbd>meta + .</kbd><br>
+| paste in shell current path (activity panel) | <kbd>meta + a</kbd><br><kbd>C-x</kbd>, <kbd>p</kbd>
+| change current path | <kbd>meta + c</kbd>
+| move top| <kbd>meta + g</kbd> or<br><kbd>HOME</kbd><br>
+| move bottom | <kbd>meta + j</kbd> or<br><kbd>END</kbd><br>
+| move middle | <kbd>meta + r</kbd>
+| advanced search  | <kbd>meta + shift + ?</kbd><br>
+| move to the previous directory in history | <kbd>meta + y</kbd><br>
+| move to the next directory in history | <kbd>meta + u</kbd><br>
+
+
       
       "C-\"                                                      - show stars path
       "C-space"                                                  - show size current selected folder / file
