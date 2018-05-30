@@ -5,66 +5,74 @@
     C-z = ctrl + z
     ----------------------------
 
-    "pr + c"    -   create new window
-    "pr + d"    -   deatach session
-    "pr + D"    -   deatach and select panes
-    "pr + f"    -   find window (search all windows open)
-    "pr + i"    -   view you session . nae window and time . date
-    "pr + k"    -   kill current the window
-    "pr + K"    -   kill current the Sessions (Server)
-    "pr + l"    -   select previous window
-    "pr + L"    -   select previous Session
-    "pr + m"    -   mark the current window (add M to the end)
-    "pr + n"    -   select next window
-    "pr + p"    -   select previous window
-    "pr + q"    -   show current pane nubmber
-    "pr + r"    -   source tmux conf
-    "pr + R"    -   Restore previous sessions after reboot (tmux resurrect)
-    "pr + s"    -   selest list sessions 
-    "pr + S"    -   Save current sessions after reboot (tmux resurrect)
-    "pr + t"    -   Show current time
-    "pr + w"    -   Show list window in current pane  (like as "pr + f")
-    "pr + x"    -   Kill current pane
-    "pr + C-z"  -   Sleep go to the background. like as in terminal enter ctrl+z (fg - foreground, bg - background)
-    
-    
-    
-    
-     "pr + ?"             -   help
-     "pr + )"             -   select next sessions
-     "pr + ("             -   select previous sessions
-     "pr + $"             -   rename corrent Session
-     "pr + &"             -   kill window (include  all separated)
-     "pr + ,"             -   rename window
-     "pr + ."             -   move current window to  (	. sessname )
-                                                      ( . sessnum:position )
-     "pr + PGDN"          -   PGDOWN
-     "pr + PGUP"          -   PGUP
-     "pr + Num 0,1,2.."   -   select window 0,1,2....9
 
-##### managing split (separated) windows     
+| ***Action*** | ***hotkey*** |
+|---|---|
+| Show current time  | <kbd>pr + c</kbd><br>  
+| deatach session  | <kbd>pr + d</kbd><br>  
+| deatach and select panes  | <kbd>pr + D</kbd><br>  
+| find window (search all windows open)  | <kbd>pr + f</kbd><br>  
+| view you session . nae window and time . date  | <kbd>pr + i</kbd><br>  
+| kill current the window | <kbd>pr + k</kbd><br>  
+| kill current the Sessions (Server) | <kbd>pr + K</kbd><br> 
+| select previous window  | <kbd>pr + l</kbd><br>  
+| select previous Session  | <kbd>pr + L</kbd><br>  
+| mark the current window (add M to the end) | <kbd>pr + m</kbd><br>  
+| select next window | <kbd>pr + n</kbd><br>  
+| select previous window  | <kbd>pr + p</kbd><br>  
+| show current pane nubmber | <kbd>pr + q</kbd><br>  
+| source tmux conf  | <kbd>pr + r</kbd><br>  
+| Restore previous sessions after reboot (tmux resurrect) | <kbd>pr + R</kbd><br>  
+| selest list sessions | <kbd>pr + s</kbd><br>  
+| Save current sessions after reboot (tmux resurrect) | <kbd>pr + S</kbd><br>  
+| Show current time  | <kbd>pr + t</kbd><br>  
+| Show list window in current pane  (like as "pr + f") | <kbd>pr + w</kbd><br>  
+| Kill current pane | <kbd>pr + x</kbd><br>  
+| Sleep go to the background. like as in terminal enter ctrl+z (<b>fg</b> - foreground, <b>bg</b> - background)| <kbd>pr + C-z</kbd><br>
+| |
+| |
+| help  | <kbd>pr + ?</kbd><br>  
+| select next sessions | <kbd>pr + )</kbd><br>
+| select previous sessions  | <kbd>pr + (</kbd><br>
+| rename corrent Session  | <kbd>pr + $</kbd><br>
+| kill window (include  all separated)  | <kbd>pr + &</kbd><br>
+| rename window | <kbd>pr + ,</kbd><br>
+| move current window to  (	. sessname )<br>  ( . sessnum:position ) | <kbd>pr + .</kbd><br>
+| |
+| PGDOWN  | <kbd>pr + PGDN</kbd><br>
+| PGUP  | <kbd>pr + PGUP</kbd><br>
+| select window 0,1,2....9  | <kbd>pr + Num 0,1,2..</kbd><br>
+        
 
-     "pr + o"     -   switch next pane (separated window)
-     "pr + q"     -   show current separated window nubmber     
-     "pr + x"     -   Kill current separated window
-     "pr + z"     -   zoom current separated window (invisible other separated window)  
-     "pr + ""     -  split (separate) vertically (top/bottom)
-     "pr + %"     -  split (separate) horizontally (left/right)
-     "pr + ;"     -  switch previous separated window
-     "pr + }"     -  move the current pane to the next position
-     "pr + {"     -  move the current pane to the previous position    
-     "pr + -"
-     "pr + +"     
-     "pr + space" -  around switch vertically or horizontally
-     "pr + !"     -  combine (unite) all separated in one other window
+## managing split (separated) windows     
+
+| ***Action*** | ***hotkey*** |
+|---|---|
+| switch next pane (separated window) | <kbd>pr + o</kbd><br> 
+| show current separated window nubmber | <kbd>pr + q</kbd><br> 
+| Kill current separated window | <kbd>pr + x</kbd><br> 
+| zoom current separated window (invisible other separated window)  | <kbd>pr + z</kbd><br> 
+| split (separate) vertically (top/bottom)  | <kbd>pr + "</kbd><br> 
+| split (separate) horizontally (left/right)  | <kbd>pr + %</kbd><br> 
+| switch previous separated window | <kbd>pr + ;</kbd><br> 
+| move the current pane to the next position | <kbd>pr + }</kbd><br> 
+| move the current pane to the previous position    | <kbd>pr + {</kbd><br>
+| help  | <kbd>pr + -</kbd><br> 
+| help  | <kbd>pr + +</kbd><br> 
+| around switch vertically or horizontally | <kbd>pr + SPACE</kbd><br>
+| combine (unite) all separated in one other window | <kbd>pr + !</kbd><br> 
+
+
      
+## COPY MODE
+
+| ***Action*** | ***hotkey*** |
+|---|---|
+| activa copy mode | <kbd>pr + [</kbd><br>
+| pastle in buffer tmux | <kbd>pr + ]</kbd><br>
+
      
-##### COPY MODE
-     
-     "pr + ["     - activa copy mode
-     "pr + ]"     - pastle in buffer tmux
-     
-###### ------------ inside copy mode
+### ------------ inside copy mode
 
                         Function                vi       
                    Back to indentation     ^             
