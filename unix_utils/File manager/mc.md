@@ -7,7 +7,7 @@ meta = (<kbd>ESC</kbd> or <kbd>ALT</kbd>)
 
 C-z = (<kbd>ctl + z</kbd>)     
 
-### panel
+## panel
 
 | **Action** | **hotkey** |
 |---|---|
@@ -25,7 +25,7 @@ C-z = (<kbd>ctl + z</kbd>)
 
      
      
- ### manage
+ ## manage
  
  | **Action** | **hotkey** |
 |---|---|
@@ -61,7 +61,7 @@ C-z = (<kbd>ctl + z</kbd>)
 | create new file | <kbd>shift + F4</kbd><br> | <kbd>screen</kbd> 
 
 
-### shell
+## shell
 
 | **Action** | **hotkey** |
 |---|---|
