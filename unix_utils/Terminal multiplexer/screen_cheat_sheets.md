@@ -5,76 +5,89 @@
  </details>
  </details>
  
- Hotkeys
-============================
-    remeber
+ 
+     remeber
     pr = prefix def "ctrl+a"
     C-z = ctrl + z
     ----------------------------
+ 
+ 
+ Hotkeys
+============================
 
-    "pr + A"                                  -   rename window
-    "pr + C-a"                                -   witch to previous window
-    "pr + c" or "pr + C-c"                    -   create new window
-    "pr + d" or "pr + C-d"                    -   deatach session
-    "pr + I"                                  -   enable output loging
-    "pr + f" or "pr + C-f"                    -   flow / deflow
-    "pr + C-g"                                -   toggle visual bell
-    "pr + h"                                  -   Write a hardcopy of the current window to the file “hardcopy.n”
-    "pr + H"                                  -   Toggle logging of the current window to the file “screenlog.n”.
-    "pr + k" or "pr + K" or "pr + C-k"        -   kill current the window
-    "pr + l" or "pr + C-l"                    -   redraw current window
-    "pr + L"                                  -   Tell screen to turn on automatic output logging for the windows. 
-    "pr + m" or "pr + C-m"                    -   show previous monitoring window message
-    "pr + M"                                  -   activate monitoring in the current window
-    "pr + n" or "pr + C-n" or "pr + SPACE"    -   select next window
-    "pr + N"                                  -   show number and title of the current window
-    "pr + q" or "pr + C-q"                    -   Command: xon
-    "pr + O"                                  -   disable logging otput
-    "pr + p" or "pr + C-p" or "pr + BACSPACE" -   select previous window
-    "pr + r" ot "pr + C-r"                    -   wrap on / wrap off 
-    "pr + s" or "pr + C-s"                    -   Command: xoff
-    "pr + t" or "pr + C-t"                    -   Show current time
-    "pr + v"                                  -   show version screen
-    "pr + V"                                  -   mode: enter gigraph
-    "pr + w" or "pr + C-w"                    -   Show all windows in current session
-    "pr + x" or "pr + C-x"                    -   lock session    
-    "pr + C-z" or "pr + z"                    -   Sleep go to the background. like as in terminal enter ctrl+z (fg - foreground, bg - background)
 
-    
-     "pr + ?"                                  -  help
-     "pr + C-\"                                -  kill all windows and terminate screen
-     "pr + ""                                  -  List windows in current session    
-     
-     "pr + Num 0,1,2.."                        -  select window 0,1,2....9
-     
-     "pr + {" or "pr + }"                      -  copy and paste previous command line
-     "pr + _"                                  -  Start/stop monitoring the current window for inactivity
-     "pr + *"                                  -  Show the listing of attached displays
-     
-###### buffer   
-     "pr + >"                                  -  Write the paste buffer out to the screen-exchange file
-     "pr + <"                                  -  Read the screen-exchange file into the paste buffer
-     "pr + ="                                  -  Delete the screen-exchange 
+| ***Action*** | ***hotkey*** |
+|---|---|
+| rename window | <kbd>pr + A</kbd><br>
+| witch to previous window | <kbd>pr + C-a</kbd><br>
+| create new window | <kbd>pr + c</kbd> or<br><kbd>pr + C-c</kbd><br> 
+| deatach session | <kbd>pr + d</kbd> or<br><kbd>pr + C-d</kbd><br>
+| enable output loging | <kbd>pr + I</kbd><br>
+| flow / deflow | <kbd>pr + f</kbd> or <br><kbd>pr + C-f</kbd><br>
+| toggle visual bell | <kbd>pr + C-g</kbd><br>
+| Write a hardcopy of the current window to the file “hardcopy.n” | <kbd>pr + h</kbd><br>
+| Toggle logging of the current window to the file “screenlog.n” | <kbd>pr + H</kbd><br>
+| kill current the window | <kbd>pr + k</kbd> or<br><kbd>pr + K</kbd> or<br><kbd>pr + C-k</kbd><br>
+| redraw current window | <kbd>pr + l</kbd> or<br><kbd>pr + C-l</kbd><br>
+| Tell screen to turn on automatic output logging for the windows | <kbd>pr + L</kbd><br> 
+| show previous monitoring window message | <kbd>pr + m</kbd><br> or<br><kbd>pr + C-m</kbd><br>
+| activate monitoring in the current window | <kbd>pr + M</kbd><br>
+| select next window | <kbd>pr + n</kbd><br> or<br><kbd>pr + C-n</kbd> or<br><kbd>pr + SPACE</kbd><br>
+| show number and title of the current window | <kbd>pr + N</kbd><br>
+| Command: xon | <kbd>pr + q</kbd> or<br><kbd>pr + C-q</kbd><br>
+| disable logging otput | <kbd>pr + O</kbd><br>
+| select previous window | <kbd>pr + p</kbd> or<br><kbd>pr + C-p</kbd> or<br><kbd>pr + BACKSPACE</kbd><br>
+| wrap on / wrap off | <kbd>pr + r</kbd> or<br><kbd>pr + C-r</kbd><br>
+| Command: xoff | <kbd>pr + s</kbd> or<br><kbd>pr + C-s</kbd><br>
+| Show current time | <kbd>pr + t</kbd> or<br><kbd>pr + C-t</kbd><br>
+| show version screen| <kbd>pr + v</kbd><br>
+| mode: enter gigraph | <kbd>pr + V</kbd><br>
+| Show all windows in current session | <kbd>pr + w</kbd> or<br><kbd>pr + C-w</kbd><br>
+| lock session   | <kbd>pr + x</kbd> or<br><kbd>pr + C-x</kbd><br>
+| Sleep go to the background. like as in terminal enter ctrl+z <br> (<b>fg</b> - foreground, <b>bg</b> - background) | <kbd>pr + z</kbd> or<br><kbd>pr + C-z</kbd><br>
+| | 
+| |
+| help | <kbd>pr + ?</kbd><br>
+| kill all windows and terminate screen | <kbd>pr + C-\\</kbd><br>
+| List windows in current session  | <kbd>pr + "</kbd><br>
+| |
+| select window 0,1,2....9| <kbd>pr + NUM 0,1,2,...</kbd><br>
+| |
+| copy and paste previous command line  | <kbd>pr + {</kbd> or<br><kbd>pr + }</kbd><br>
+| start/stop monitoring the current window for inactivity | <kbd>pr + <b><i>+</i></b></kbd><br>
+| Show the listing of attached displays | <kbd>pr + *</kbd><br>
 
-##### managing split (separated) windows     
+## buffer   
 
-     "pr + F"           -  resize region
-     "pr + Q"           -  Delete all regions but the current one                           -     
-     "pr + X"           -  Kill current region
-     "pr + z"           -  zoom current separated window (invisible other separated window)  
-     "pr + |"           -  split (separate) vertically (top/bottom)
-     "pr + S"           -  split (separate) horizontally (left/right)
-     "pr + TAB"         -  switch next region (separated window)
-     
-    
+| ***Action*** | ***hotkey*** |
+|---|---|
+| Write the paste buffer out to the screen-exchange file | <kbd>pr + ></kbd><br>
+| Read the screen-exchange file into the paste buffer | <kbd>pr + <</kbd><br>
+| Delete the screen-exchange  | <kbd>pr + =</kbd><br>                         -  
+
+## managing split (separated) windows     
+
+| ***Action*** | ***hotkey*** |
+|---|---|
+| resize region  | <kbd>pr + F</kbd><br>  
+| Delete all regions but the current one  | <kbd>pr + Q</kbd><br>  
+| Kill current region  | <kbd>pr + X</kbd><br>  
+| zoom current separated window (invisible other separated window)  | <kbd>pr + z</kbd><br>  
+| split (separate) vertically (top/bottom)  | <kbd>pr + |</kbd><br>  
+| split (separate) horizontally (left/right)  | <kbd>pr + S</kbd><br>  
+| switch next region (separated window)  | <kbd>pr + TAB</kbd><br>  
+
 
      
-##### COPY MODE
+## COPY MODE
+
+| ***Action*** | ***hotkey*** |
+|---|---|
+| activa copy mode| <kbd>pr + [</kbd> or<br><kbd>pr + C-[</kbd> or<br><kbd>pr + C-ESC</kbd><br>
+| pastle in buffer screen | <kbd>pr + ]</kbd> or<br><kbd>pr + ]</kbd><br>
+
      
-     "pr + [" or "pr + C-[" or "pr + ESC"     - activa copy mode
-     "pr + ]" or "pr + C-]"                   - pastle in buffer screen
-     
-###### ------------ inside copy mode
+### ------------ inside copy mode
 
                         Function                vi       
                    Back to indentation     ^             
