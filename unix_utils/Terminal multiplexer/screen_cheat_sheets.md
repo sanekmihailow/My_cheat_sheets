@@ -84,7 +84,7 @@
 | ***Action*** | ***hotkey*** |
 |---|---|
 | activa copy mode| <kbd>pr + [</kbd> or<br><kbd>pr + C-[</kbd> or<br><kbd>pr + C-ESC</kbd><br>
-| pastle in buffer screen | <kbd>pr + ]</kbd> or<br><kbd>pr + ]</kbd><br>
+| pastle in buffer screen | <kbd>pr + ]</kbd> or<br><kbd>pr + C-]</kbd><br>
 
      
 ### ------------ inside copy mode
