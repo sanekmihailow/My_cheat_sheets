@@ -44,29 +44,31 @@ C-z = (<kbd>ctl + z</kbd>)
 | move to the previous directory in history | <kbd>meta + y</kbd><br>
 | move to the next directory in history | <kbd>meta + u</kbd><br>
 
-
-      
-      "C-\"                                                      - show stars path
-      "C-space"                                                  - show size current selected folder / file
-      "C-s"                                                      - fast search
-      "C-x, i"                                                   - show fast info of current object
-      "C-x. l"                                                   - create hard link
-      "C-x, o"                                                   - edit owner and group of current object
-      "C-x, q"                                                   - show fast content of file on inactual panel
-      "C-x, s"                                                   - create symlink
-      "C-x, C-s"                                                 - edit symlink
-      
-      "shfit + F4"                                               - create new file
-      
-### shell
-
-     "meta + ENTER"                                 - copy the currently selected file’s name to the shell
-     "meta + a" or "C-x, p"                         - copy all current path to the shell
-     "meta + h"                                     - show history previous commands
-     "meta + shift + A" or "C-x, C-p"               - copy all inactual path to the shell
-     
-     
-      
 | **Action** | **hotkey** |
 |---|---|
-| create new file | <kbd>shift + F4</kbd><br> | <kbd>screen</kbd> | 
+| show stars path | <kbd>C-\\</kbd><br>
+| show size current selected folder / file | <kbd>C-space</kbd><br>
+| fast search | <kbd>C-s</kbd><br>
+| how fast info of current object | <kbd>C-x, i</kbd><br>
+| create hard link | <kbd>C-x. l</kbd><br>
+| edit owner and group of current object | <kbd>C-x, o</kbd><br>
+| show fast content of file on inactual panel | <kbd>C-x, q</kbd><br>
+| create symlink | <kbd>C-x, s</kbd><br>
+| create new file | <kbd>shfit + F4</kbd><br>
+
+| **Action** | **hotkey** |
+|---|---|
+| create new file | <kbd>shift + F4</kbd><br> | <kbd>screen</kbd> 
+
+
+### shell
+
+| **Action** | **hotkey** |
+|---|---|
+| copy the currently selected file’s name to the shell | <kbd>meta + ENTER</kbd>
+| copy all current path to the shell | <kbd>meta + a</kbd> or<br><kbd>C-x, p</kbd>
+| show history previous commands | <kbd>meta + h</kbd>
+| show stars path | <kbd>meta + shift + A</kbd> or<br><kbd>C-x, C-p</kbd>
+
+      
+| 
