@@ -7,9 +7,9 @@ meta = (<kbd>ESC</kbd> or <kbd>ALT</kbd>)
 
 C-z = (<kbd>ctl + z</kbd>)     
 
-## panel
+## panel -----------------------------------------
 
-| **Action** | **hotkey** |
+| ***Action*** | ***hotkey*** |
 |---|---|
 | move to directory from inactual panel on actual panel <br> <b>example:</b> actual = (/var/www), inactual ( /usr/local) -> inactual will (/var/www) | <kbd>meta + i</kbd><br>
 | shows contents directory from actual panel on inactual panel | <kbd>meta + o</kbd><br>
@@ -25,9 +25,9 @@ C-z = (<kbd>ctl + z</kbd>)
 
      
      
- ## manage
+ ## manage ----------------------------------------
  
- | **Action** | **hotkey** |
+ | ***Action*** | ***hotkey*** |
 |---|---|
 | select file, fioled |  <kbd>insert</kbd> or<br><kbd>shift + arrow</kbd> (down/up) or<br><kbd>shift + t</kbd>
 | select files based on a pattern | <kbd>+</kbd><br>
@@ -44,7 +44,7 @@ C-z = (<kbd>ctl + z</kbd>)
 | move to the previous directory in history | <kbd>meta + y</kbd><br>
 | move to the next directory in history | <kbd>meta + u</kbd><br>
 
-| **Action** | **hotkey** |
+| ***Action*** | ***hotkey*** |
 |---|---|
 | show stars path | <kbd>C-\\</kbd><br>
 | show size current selected folder / file | <kbd>C-space</kbd><br>
@@ -56,12 +56,12 @@ C-z = (<kbd>ctl + z</kbd>)
 | create symlink | <kbd>C-x, s</kbd><br>
 | create new file | <kbd>shfit + F4</kbd><br>
 
-| **Action** | **hotkey** |
+| ***Action*** | ***hotkey*** |
 |---|---|
 | create new file | <kbd>shift + F4</kbd><br> | <kbd>screen</kbd> 
 
 
-## shell
+## shell ----------------------------------------
 
 | **Action** | **hotkey** |
 |---|---|
