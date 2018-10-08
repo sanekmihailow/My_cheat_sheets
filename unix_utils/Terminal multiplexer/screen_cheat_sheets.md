@@ -72,7 +72,8 @@
 | resize region                                                     | <kbd>pr + F</kbd><br>  
 | Delete all regions but the current one                            | <kbd>pr + Q</kbd><br>  
 | Kill current region                                               | <kbd>pr + X</kbd><br>  
-| zoom current separated window (invisible other separated window)  | <kbd>pr + z</kbd><br>  
+| zoom current separated window (invisible other separated window)  | <kbd>pr + z</kbd><br>
+| after split need create window <kbd>pr + c</kbd><br>   | 
 | split (separate) vertically (top/bottom)                          | <kbd>pr + \|</kbd><br>  
 | split (separate) horizontally (left/right)                        | <kbd>pr + S</kbd><br>  
 | switch next region (separated window)                             | <kbd>pr + TAB</kbd><br>  
