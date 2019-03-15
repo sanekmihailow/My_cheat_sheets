@@ -112,7 +112,7 @@
     ':set foldmethod=indent'                       -  zr , zt , zc, zO
 
     ':iab abvr ACCESS bridge version raid'         -  сделать абривиатуру и раскравать ее в тексте
-
+    ':e ++enc=koir8-r'                             -  сделать читаемой в vim кодировку koir8-r
 
 
 
