@@ -177,6 +177,7 @@ command mode
 terminal 
 ==================
     tmux list-commands                                                                          - show tmux commands
+    tmux list-session                                                                           - show tmux sessions
     tmux ls                                                                                     - show tmux current sessions       
     tmux attach / tmux a                                                                        - attach (connect) current session
     tmux new                                                                                    - create new tmux session
