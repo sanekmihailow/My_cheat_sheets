@@ -183,8 +183,9 @@ terminal
     screen -r name -X stuff "ls $(echo -ne '\015')"                                - run ls in session name
     screen vim /etc/motd                                                           - run vim in new session
     screen -list                                                                   - show tmux current sessions       
-    screen -r                                                                      - attach (connect) current session
     screen                                                                         - create new tmux session
+    screen -R                                                                      - attach (connect) current session
+    screen -x <session name>                                                       - attach exist session name
     screen -r -t session_pid or session_name                                       - attach neme session      
     screen -r name -X quit                                                         - kill session name      
     screen -list | grep : | cut -d. -f1 | awk '{print substr($1, 0)}' | xargs kill - kill all screen current sessions
