@@ -123,3 +123,11 @@
     ':vertical resize +/-15'                       -  перераспределить размер окна по вертикали
 
 
+        set syntax=dmesg
+        set syntax=syslog
+        set syntax=kernel
+        set syntax=samba
+        set syntax=systemd
+        set syntax=messages
+        set filetype=messages
+        set filetype=dmesg
