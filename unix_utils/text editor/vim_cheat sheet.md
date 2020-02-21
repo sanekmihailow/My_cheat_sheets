@@ -23,7 +23,14 @@
 
     "Ctrl + L"                                     -   перерисовывает экран
 
+#### ___ Выравнивание
+1) Сначала выделяем текст -> затем вводит `:'<,'>normal f:5a ` где `:`-разделитель, `5a`-число дальнейших отступов от разделителя, `пробел`- дальнейшие отступы
+2) затем выделяем обсласть до которой хотим сократить
+3) далее <kbd>shift + <</kbd> -сокращает на 5 оступов
+4) затем повторяем <kbd>.</kbd> -повторяем пока не выравниться
+5) оригинал [stack exchange](https://vi.stackexchange.com/questions/594/how-to-left-align-two-columns-of-text/20726)
 
+<a href="https://i.stack.imgur.com/FvLhf.gif"><img src="https://i.stack.imgur.com/FvLhf.gif" width="400" title="Align"/></a>
 
 
 
