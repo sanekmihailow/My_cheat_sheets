@@ -189,7 +189,7 @@ terminal
     screen -r -t session_pid or session_name                                       - attach neme session      
     screen -r name -X quit                                                         - kill session name      
     screen -list | grep : | cut -d. -f1 | awk '{print substr($1, 0)}' | xargs kill - kill all screen current sessions
-    screen -d -r <number session>                                                  - deatach session and attached nov (if you session attached)
+    screen -d -r <number session>                                                  - deatach session and attached now (if you session attached)
    
 
 
