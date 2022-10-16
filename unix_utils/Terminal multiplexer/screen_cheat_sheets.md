@@ -26,7 +26,7 @@
 | flow / deflow                                                    | <kbd>pr + f</kbd> or <br><kbd>pr + C-f</kbd><br>
 | toggle visual bell                                               | <kbd>pr + C-g</kbd><br>
 | Write a hardcopy of the current window to the file “hardcopy.n”  | <kbd>pr + h</kbd><br>
-| Toggle logging of the current window to the file “screenlog.n”   | <kbd>pr + H</kbd><br>
+| Toggle record logging of the current window to the file “screenlog.n”   | <kbd>pr + H</kbd><br>
 | kill current the window                 | <kbd>pr + k</kbd> or<br><kbd>pr + K</kbd> or<br><kbd>pr + C-k</kbd><br>
 | redraw current window                                            | <kbd>pr + l</kbd> or<br><kbd>pr + C-l</kbd><br>
 | Tell screen to turn on automatic output logging for the windows  | <kbd>pr + L</kbd><br> 
