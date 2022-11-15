@@ -1,6 +1,6 @@
   Hotkeys
 ============================
-    remeber
+    remember
     pr = prefix def ("ctrl+b")
     C-z = ctrl + z
     ----------------------------
