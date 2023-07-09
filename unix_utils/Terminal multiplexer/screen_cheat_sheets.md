@@ -152,7 +152,8 @@ command mode
     :windows                    - list windows
     :redisplay                  - redraw current window    
     :windowlist -b              - choose window interactively        
-    :kill                       - close current window      
+    :kill                       - close current window
+    :number <4>                 - change (swapped) places current (in example 1) window and 4 window
 
 ###### -------------------- regions ----------------------------------------
     :split                      - split into top and bottom regions
