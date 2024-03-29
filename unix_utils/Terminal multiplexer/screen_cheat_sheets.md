@@ -63,7 +63,8 @@
 |---|---|
 | Write the paste buffer out to the screen-exchange file | <kbd>pr + ></kbd><br>
 | Read the screen-exchange file into the paste buffer    | <kbd>pr + <</kbd><br>
-| Delete the screen-exchange                             | <kbd>pr + =</kbd><br>                         -  
+| Delete the screen-exchange                             | <kbd>pr + =</kbd><br>                         -
+| register line in buffer a                              | <kbd>Shift+" ayy=</kbd><br> 
 
 ## managing split (separated) windows     
 
